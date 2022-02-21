@@ -1,0 +1,608 @@
+.navbar-header img{
+    max-width: 300px;
+    padding: 10px;
+}
+.wpo-campaign-area .campaign-btn .e-btn,
+.wpo-campaign-area-s2 .campaign-btn .e-btn,
+.wpo-campaign-area-s3 .campaign-btn .e-btn,
+.wpo-campaign-area-s4 .campaign-btn .e-btn {
+  display: block;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  color: #333333;
+  font-weight: 500;
+  width: 150px;
+  border-radius: 40px;
+  border: 1px solid #5dc4b8;
+  color: #212158;
+}
+.wpo-campaign-area .campaign-btn .e-btn:hover,
+.wpo-campaign-area-s2 .campaign-btn .e-btn:hover,
+.wpo-campaign-area-s3 .campaign-btn .e-btn:hover,
+.wpo-campaign-area-s4 .campaign-btn .e-btn:hover {
+  background: #5dc4b8;
+  color: #fff;
+}
+
+.wpo-event-area {
+    padding-top: 90px;
+}
+.grid img{
+    width: 100px !important;
+}
+.logo img{
+    max-width: 150px;
+}
+.wpo-features-icon .icon img{
+  width: 50px;
+}
+.advocacy-page .wpo-features-icon .icon img{
+  width: 80px;
+}
+.theme-btn-s2{
+  margin-top: 20px;
+}
+.about-highlight > p > .project{
+  color: #05e66a;
+  padding: 0px 5px;
+}
+.about-highlight > p > .country{
+  color: #72449A;
+  padding: 0px 5px;
+}
+.about-highlight > p > .people{
+  padding: 0px 5px;
+}
+.wpo-blog-section-s3 {
+  background: #fff;
+  padding-bottom: 90px;
+}
+.about-highlight{
+  border-left: 3px solid rgb(240, 237, 237);
+  padding-left: 12px;
+  border-radius: 2px;
+
+}
+
+.about-highlight > p > span{
+  display: inline !important;
+}
+.about-highlight p{
+  margin-bottom: 0px !important;
+}
+
+.mini-gallery > .row > .column {
+  padding: 0 8px;
+}
+
+.mini-gallery > .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.wpo-about-section-s2 {
+  padding-top: 120px;
+}
+
+.index-page .wpo-features-section-s6 {
+    background: #fff;
+}
+.about-page .wpo-features-section-s6{
+  background: #e9fafa
+}
+.about-us .wpo-about-text{
+  text-align: center;
+}
+
+/* Create four equal columns that floats next to eachother */
+.mini-gallery > .column {
+  float: left;
+  width: 25%;
+}
+.mini-gallery .column img{
+  width: 100px;
+}
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Hide the slides by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Caption text */
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+img.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.wpo-about-section-s6 .wpo-about-items .wpo-about-text {
+  padding-left: 0px !important;
+ 
+}
+
+.wpo-event-area-s2 .wpo-event-wrap .event-slider button{
+  position: absolute;
+  left: 46%;
+  bottom: -30px;
+  transform: translateY(-50%);
+  height: 50px;
+  width: 50px;
+  line-height: 46px;
+  text-align: center;
+  background: #fff;
+  transition: all 0.3s;
+  border: 1px solid #ebebeb;
+  font-size: 20px;
+  border-radius: 5px;
+}
+.wpo-event-area-s2 .wpo-event-wrap .event-slider button:hover
+ {
+  background: #ef5f34;
+  color: #fff;
+}
+
+.wpo-event-single{
+  padding-bottom: 100px;
+}
+.wpo-accountBtn {
+  font-size: 16px;
+  padding: 10px 20px;
+  border: 2px solid #ef5f34;
+  width: 100%;
+  background: #ef5f34;
+  color: #fff;
+  transition: all 0.4s ease-in-out 0s;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+.widget .form-group label{
+  color: white;
+}
+.widget .form-group{
+  padding-top: 10px;
+}
+.widget .form-group input{
+  padding: 10px 20px;
+}
+.index-page .wpo-about-section-s4 .wpo-about-items, .wpo-about-items {
+  background: #fff;
+  border-radius: 20px;
+}
+.wpo-about-section-s4 {
+  padding-top: 90px;
+}
+
+.about-page .wpo-campaign-area {
+  background: #fef6f3;
+}
+.about-page .wpo-about-section-s2 .wpo-about-text{
+  max-width: 100%;
+}
+.about-page .wpo-about-section-s4{
+  padding-top: 0px;
+}
+
+.about-page .wpo-about-section-s6 .wpo-about-items .wpo-about-text {
+  padding-left: 20px !important;
+}
+.about-page .wpo-breadcumb-area {
+  background: url(../images/about/about-header.png) no-repeat center top/cover;
+}
+.cottage-page .wpo-breadcumb-area {
+  background: url(../images/cottage-industry/cottage-bg.png) no-repeat center top/cover;
+}
+.advocacy-page .wpo-breadcumb-area {
+  background: url(../images/advocacy/advocacy.png) no-repeat center top/cover;
+}
+.cottage-page  .wpo-about-section-s5 {
+  padding-top: 120px;
+}
+.sauki-page .wpo-breadcumb-area {
+  background: url(../images/sauki-health/sauki-health.png) no-repeat center top/cover;
+}
+.northeast .wpo-breadcumb-area {
+  background: url(../images/north-east/northeast.png) no-repeat center top/cover;
+}
+.impact .wpo-breadcumb-area {
+  background: url(../images/impact-500/impact.png) no-repeat center top/cover !important;
+}
+.bgirl .wpo-breadcumb-area {
+  background: url(../images/b-girl/b-girl-header.png) no-repeat center top/cover !important;
+}
+.impact .wpo-about-video-area .wpo-about-video-img:before {
+  background: none;
+}
+.impact .wpo-features-icon .icon img {
+  width: 80px;
+}
+.contact-page .wpo-contact-pg-section form input, .contact-page .wpo-contact-pg-section form select{
+   border: 1px solid #d0d4df;
+    padding-left: 15px;
+    height: 50px;
+    width: 100%;
+    background: none;
+    border-radius: 5px;
+}
+.contact-page .wpo-contact-pg-section form textarea{
+  border: 1px solid #d0d4df;
+  padding-left: 15px;
+  background: none;
+    border-radius: 5px;
+}
+.contact-page .wpo-contact-pg-section .office-info .office-info-item {
+  height: 300px;
+}
+.contact-page .wpo-contact-pg-section .wpo-contact-form-area {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.cottage-page .wpo-about-text .wpo-sheafeature-section .wpo-features-icon {
+  background: #dafdf9;
+  box-shadow: 0px 0px 63px 0px rgb(4 8 88 / 5%);
+  width: 150px;
+  height: 150px;
+  line-height: 150px;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 50%;
+  position: relative;
+   
+}
+.sponsor .wpo-about-section-s4 .wpo-about-items{
+  background: white;
+}
+.sponsor .wpo-about-section-s4 .wpo-about-wrap .wpo-about-img{
+  text-align: start;
+}
+.sponsor .wpo-benefits-section .accordion {
+  border-top: 1px solid #e1e1e1;
+}
+.sponsor .wpo-benefits-section .accordion-item {
+  border: 0;
+  border-bottom: 1px solid #e1e1e1;
+}
+.sponsor .wpo-benefits-section .accordion-item button {
+  padding: 20px;
+  border: 0;
+  border-radius: 0;
+  padding-left: 0;
+  padding-right: 0;
+  font-size: 20px;
+  color: #212158;
+  text-align: left;
+}
+.sponsor .wpo-benefits-section .accordion-item button.collapsed {
+  color: #373b3e;
+} 
+.sponsor .wpo-benefits-section .accordion-item button.collapsed::after {
+  content: "";
+}
+
+.sponsor .wpo-benefits-section .accordion-item button::after {
+  background: none;
+  font-family: "themify";
+  content: "";
+  font-size: 15px;
+  transform: rotate(
+0deg
+);
+  font-weight: 700;
+}
+.sponsor  .wpo-benefits-section .accordion-button {
+  background: transparent;
+}
+.sponsor .faq-section{
+  margin-bottom: 120px;
+}
+
+.bgirl .wpo-features-section-s2 .wpo-features-item{
+  max-width: 100%;
+}
+.bgirl .wpo-features-section-s2 .feature-item-2{
+  background: #fde4dd !important;
+}
+.bgirl .wpo-features-section-s2{
+  padding: 0px;
+}
+.bgirl .wpo-project-single-section .wpo-project-single-wrap .wpo-features-section-s2 .col:nth-child(2) .wpo-features-item {
+  background: #fde4dd !important;
+}
+.bgirl .wpo-campaign-area .wpo-campaign-item{
+  height: 800px;
+}
+.cottage-page .wpo-about-text .wpo-sheafeature-section .wpo-features-icon .fi{
+  font-size: 60px;
+  color: #5dc4b8;
+}
+.cottage-page .wpo-about-text .wpo-sheafeature-section .col:nth-child(2) .wpo-features-icon .fi {
+  color: #ef5f34;
+}
+
+.cottage-page .wpo-about-text .wpo-sheafeature-section .col:nth-child(2) .wpo-features-icon{
+  background: #ffefeb;
+}
+.cottage-page .wpo-about-text .wpo-sheafeature-section .col:nth-child(3) .wpo-features-icon .fi {
+  color: #2eb1dc;
+}
+
+.cottage-page .wpo-about-text .wpo-sheafeature-section .col:nth-child(3) .wpo-features-icon{
+  background: #d2ecf4;
+}
+.cottage-page .wpo-about-section-s5 .wpo-total-project{
+  background: linear-gradient(to left, #225c55, rgba(93, 196, 184, 0.85));
+    border-radius: 40px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 30px;
+}
+.cottage-page .wpo-about-section-s5 .counter-2 .wpo-total-project{
+  background: linear-gradient(to left, #e4530f, rgba(230, 125, 28, 0.85));
+}
+.cottage-page .wpo-about-section-s5 .wpo-total-project .wpo-total-project-wrap{
+  display: flex;
+    align-items: center;
+}
+.cottage-page .wpo-about-section-s5 .counter-2 .wpo-total-project .wpo-total-project-wrap .wpo-total-project-icon{
+  background: #e4530f;
+}
+.cottage-page .wpo-about-section-s5 .wpo-total-project .wpo-total-project-wrap .wpo-total-project-icon{
+  background: #2b766e;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.cottage-page .wpo-about-section-s5 .wpo-total-project .wpo-total-project-wrap .wpo-total-project-icon .fi{
+  color: #fff;
+}
+.cottage-page .wpo-about-section-s5 .wpo-total-project .wpo-total-project-wrap .wpo-total-project-text h3{
+  color: #fff;
+  margin-bottom: 0;
+}
+.cottage-page .wpo-about-section-s5 .wpo-total-project .wpo-total-project-wrap .wpo-total-project-text p{
+  color: #fff;
+  margin-bottom: 0;
+}
+.cottage-page .wpo-about-section-s5 .wpo-total-project .project-shape{
+  position: absolute;
+  right: -140px;
+  top: -60px;
+  z-index: -1;
+}
+.cottage-page .wpo-about-section-s3 {
+  padding-top: 90px;
+}
+.cottage-page .wpo-about-video-area {
+  padding-top: 60px;
+} 
+.wpo-sheafeature-section h4{
+  text-align: center;
+}
+
+.advocacy-page .wpo-features-section-s2 .wpo-features-item .wpo-features-text p{
+  font-size: 14px;
+}
+.advocacy-page .wpo-features-section-s2 .wpo-features-item{
+  height: 400px;
+}
+.advocacy-page .wpo-features-section-s2 .wpo-features-item .wpo-features-icon{
+  border: 1px solid #ebebeb;
+}
+.wpo-features-section-s2 .advocacy-row .col:nth-child(2) .wpo-features-item {
+  background: #f1e0ff;
+}
+.wpo-features-section-s2 .advocacy-row .col:nth-child(2) .wpo-features-item .fi{
+  color: #72449A;
+}
+.wpo-features-section-s2 .advocacy-row .wpo-features-item {
+  background: #dcffec;;
+}
+.wpo-features-section-s2 .advocacy-row .wpo-features-item .fi{
+  color: #05e66a;;
+}
+.wpo-features-section-s2 .advocacy-row .col:nth-child(3) .wpo-features-item {
+  background: #ffdfe0;
+}
+.wpo-features-section-s2 .advocacy-row .col:nth-child(3) .wpo-features-item .fi{
+  color: #ED2024;
+}
+
+.volunteer-contact-form .form-group .required{
+  color: #ED2024;
+} 
+
+.sauki-page .wpo-about-section-s4 .maternal{
+  background: #ffefeb !important;
+}
+
+.sauki-page .wpo-about-section-s4 .school-based{
+  background: #d2ecf4 !important;
+}
+.sauki-page .wpo-about-section-s5 .wpo-about-wrap .ab-shape1{
+  position: absolute;
+  right: -30%;
+  top: -10%;
+  opacity: 0.1;
+  -webkit-animation: bounceTop 3s linear infinite;
+  animation: bounceTop 3s linear infinite;
+
+}
+.northeast .wpo-project-single-section .wpo-project-single-wrap .wpo-project-single-content .wpo-project-single-content-des .wpo-project-single-content-des-wrap {
+  display: block;
+}
+.northeast .wpo-project-single-section .wpo-project-single-wrap .wpo-solutions-section .wpo-solutions-item{
+  height: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 440px){
+  .wpo-site-header .navbar-header .navbar-brand img {
+      max-width: 200px;
+  }
+  .contact-page .wpo-contact-pg-section .wpo-contact-form-area {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  }
+
+@media (max-width: 991px) {
+  .wpo-event-area-s2 .wpo-event-wrap .event-slider button {
+    display: none;
+  }
+}
+.wpo-event-area-s2 .wpo-event-wrap .event-slider .owl-next
+ {
+  left: 51%;
+  bottom: -30px;
+  transform: translateY(-50%);
+}
+@media (max-width: 991px) {
+  .wpo-event-area-s2 .wpo-event-wrap .event-slider .owl-next
+ {
+    display: none;
+  }
+}
+@media (max-width: 1200px) {
+  .wpo-campaign-area .campaign-btn .e-btn,
+.wpo-campaign-area-s2 .campaign-btn .e-btn,
+.wpo-campaign-area-s3 .campaign-btn .e-btn,
+.wpo-campaign-area-s4 .campaign-btn .e-btn {
+    height: 40px;
+    line-height: 40px;
+    width: 90px;
+    font-size: 12px;
+  }
+}
+@media (max-width: 1200px) {
+  .wpo-event-area-s2 .wpo-event-wrap .event-slider button
+{
+    left: 43%;
+  }
+}
+@media (max-width: 1400px){
+.cottage-page .wpo-about-section-s5 .wpo-total-project .wpo-total-project-wrap .wpo-total-project-icon{
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  margin-right: 17px;
+}
+}
+@media (max-width: 1400px){
+  .cottage-page .wpo-about-section-s5 .wpo-total-project .wpo-total-project-wrap .wpo-total-project-icon .fi{
+    font-size: 20px;
+  }
+}
+@media (max-width: 1400px){
+  .cottage-page .wpo-about-section-s5 .wpo-total-project{
+    padding: 12px 10px;
+  }
+  
+}
