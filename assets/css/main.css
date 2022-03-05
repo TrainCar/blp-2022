@@ -28,6 +28,29 @@
 .wpo-event-area {
     padding-top: 90px;
 }
+.wpo-campaign-area .wpo-campaign-item .wpo-campaign-img .thumb-3{ 
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    background: linear-gradient(to left, #5b82c0, #263b5c );
+    padding: 4px 20px;
+    border-radius: 4px;
+    color: #fff;
+}
+.wpo-blog-section-s3 .wpo-blog-img .thumb-3 {
+  position: absolute;
+    left: 20px;
+    top: 20px;
+    background: linear-gradient(to left, #5b82c0, #263b5c );
+    padding: 4px 20px;
+    border-radius: 4px;
+    color: #fff;
+}
+.wpo-blog-item{
+  background: white;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px 0px rgba(219,217,217,0.75);;
+}
 .grid img{
     width: 100px !important;
 }
