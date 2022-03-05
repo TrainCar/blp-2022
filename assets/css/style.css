@@ -140,12 +140,12 @@ body {
 }
 @media (max-width: 767px) {
   body {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 
 p {
-  font-size: 16px;
+  font-size: 18px;
   color: #4f555a;
   line-height: 1.8em;
 }

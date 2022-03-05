@@ -46,13 +46,16 @@
 .about-highlight > p > .project{
   color: #05e66a;
   padding: 0px 5px;
+  font-size: 22px;
 }
 .about-highlight > p > .country{
   color: #72449A;
   padding: 0px 5px;
+  font-size: 22px;
 }
 .about-highlight > p > .people{
   padding: 0px 5px;
+  font-size: 22px;
 }
 .wpo-blog-section-s3 {
   background: #fff;
@@ -70,6 +73,7 @@
 }
 .about-highlight p{
   margin-bottom: 0px !important;
+  font-size: 22px;
 }
 
 .mini-gallery > .row > .column {
@@ -268,9 +272,8 @@ img.hover-shadow {
 .wpo-about-section-s4 {
   padding-top: 90px;
 }
-
-.about-page .wpo-campaign-area {
-  background: #fef6f3;
+.about-page .wpo-about-section-s4 .wpo-about-items{
+  background: none;
 }
 .about-page .wpo-about-section-s2 .wpo-about-text{
   max-width: 100%;
@@ -278,7 +281,6 @@ img.hover-shadow {
 .about-page .wpo-about-section-s4{
   padding-top: 0px;
 }
-
 .about-page .wpo-about-section-s6 .wpo-about-items .wpo-about-text {
   padding-left: 20px !important;
 }
@@ -286,7 +288,7 @@ img.hover-shadow {
   background: url(../images/about/about-header.png) no-repeat center top/cover;
 }
 .cottage-page .wpo-breadcumb-area {
-  background: url(../images/cottage-industry/cottage-bg.png) no-repeat center top/cover;
+  background: url(../images/cottage/cottage-bg.png) no-repeat center top/cover;
 }
 .advocacy-page .wpo-breadcumb-area {
   background: url(../images/advocacy/advocacy.png) no-repeat center top/cover;
@@ -298,13 +300,13 @@ img.hover-shadow {
   background: url(../images/sauki-health/sauki-health.png) no-repeat center top/cover;
 }
 .northeast .wpo-breadcumb-area {
-  background: url(../images/north-east/northeast.png) no-repeat center top/cover;
+  background: url(../images/northeast/northeast.png) no-repeat center top/cover;
 }
 .impact .wpo-breadcumb-area {
-  background: url(../images/impact-500/impact.png) no-repeat center top/cover !important;
+  background: url(../images/impact/impact.png) no-repeat center top/cover !important;
 }
-.bgirl .wpo-breadcumb-area {
-  background: url(../images/b-girl/b-girl-header.png) no-repeat center top/cover !important;
+.impact .wpo-cta-area-s2 .wpo-cta-section{
+  padding-right: 0px;
 }
 .impact .wpo-about-video-area .wpo-about-video-img:before {
   background: none;
@@ -406,6 +408,15 @@ img.hover-shadow {
 }
 .bgirl .wpo-campaign-area .wpo-campaign-item{
   height: 800px;
+}
+.bgirl .wpo-breadcumb-area {
+  background: url(../images/b-girl/b-girl-header.png) no-repeat center top/cover !important;
+}
+.bgirl .wpo-cta-area .wpo-cta-section{
+  padding-right: 0px;
+}
+.bgirl .wpo-campaign-area{
+  padding-bottom: 0px;
 }
 .cottage-page .wpo-about-text .wpo-sheafeature-section .wpo-features-icon .fi{
   font-size: 60px;
@@ -594,15 +605,27 @@ img.hover-shadow {
   line-height: 70px;
   margin-right: 17px;
 }
+.cottage-page .wpo-about-section-s5 .wpo-total-project{
+  padding: 12px 10px;
 }
-@media (max-width: 1400px){
-  .cottage-page .wpo-about-section-s5 .wpo-total-project .wpo-total-project-wrap .wpo-total-project-icon .fi{
-    font-size: 20px;
+.cottage-page .wpo-about-section-s5 .wpo-total-project .wpo-total-project-wrap .wpo-total-project-icon .fi{
+  font-size: 20px;
+}
+
+}
+
+@media (max-width: 1500px){
+.bgirl .wpo-cta-area{
+  padding: 0px;
+  padding-bottom: 90px;
+}
+}
+@media (min-width: 900px){
+  .popup-gallery{
+    padding-top: 30px;
   }
-}
-@media (max-width: 1400px){
-  .cottage-page .wpo-about-section-s5 .wpo-total-project{
-    padding: 12px 10px;
+  .popup-gallery a img{
+    width: 200px;
   }
-  
-}
+  }
+
