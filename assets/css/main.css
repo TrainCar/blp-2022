@@ -52,7 +52,9 @@
   box-shadow: 10px 10px 5px 0px rgba(219,217,217,0.75);;
 }
 .grid img{
-    width: 100px !important;
+    width: 120px !important;
+    object-fit: contain;
+    height: 120px;
 }
 .logo img{
     max-width: 150px;
