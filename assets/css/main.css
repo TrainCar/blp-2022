@@ -32,7 +32,7 @@
     position: absolute;
     left: 20px;
     top: 20px;
-    background: linear-gradient(to left, #5b82c0, #263b5c );
+    background: linear-gradient(to left, #af72e4, #72449A );
     padding: 4px 20px;
     border-radius: 4px;
     color: #fff;
@@ -41,7 +41,7 @@
   position: absolute;
     left: 20px;
     top: 20px;
-    background: linear-gradient(to left, #5b82c0, #263b5c );
+    background: linear-gradient(to left, #af72e4, #72449A  );
     padding: 4px 20px;
     border-radius: 4px;
     color: #fff;
@@ -101,7 +101,7 @@
   font-size: 22px;
 }
 
-.mini-gallery > .row > .column {
+/* .mini-gallery > .row > .column {
   padding: 0 8px;
 }
 
@@ -109,7 +109,7 @@
   content: "";
   display: table;
   clear: both;
-}
+} */
 .wpo-about-section-s2 {
   padding-top: 120px;
 }
@@ -120,20 +120,26 @@
 .about-page .wpo-features-section-s6{
   background: #e9fafa
 }
+.about-page .wpo-about-video-area .wpo-about-video-img:before {
+  background: none;
+}
+.about-page .wpo-about-video-area {
+    padding-top: 60px;
+}
 .about-us .wpo-about-text{
   text-align: center;
 }
 
 /* Create four equal columns that floats next to eachother */
-.mini-gallery > .column {
+/* .mini-gallery > .column {
   float: left;
   width: 25%;
 }
 .mini-gallery .column img{
   width: 100px;
-}
+} */
 /* The Modal (background) */
-.modal {
+/* .modal {
   display: none;
   position: fixed;
   z-index: 1;
@@ -144,42 +150,42 @@
   height: 100%;
   overflow: auto;
   background-color: black;
-}
+} */
 
 /* Modal Content */
-.modal-content {
+/* .modal-content {
   position: relative;
   background-color: #fefefe;
   margin: auto;
   padding: 0;
   width: 90%;
   max-width: 1200px;
-}
+} */
 
 /* The Close Button */
-.close {
+/* .close {
   color: white;
   position: absolute;
   top: 10px;
   right: 25px;
   font-size: 35px;
   font-weight: bold;
-}
+} */
 
-.close:hover,
+/* .close:hover,
 .close:focus {
   color: #999;
   text-decoration: none;
   cursor: pointer;
-}
+} */
 
 /* Hide the slides by default */
-.mySlides {
+/* .mySlides {
   display: none;
-}
+} */
 
 /* Next & previous buttons */
-.prev,
+/* .prev,
 .next {
   cursor: pointer;
   position: absolute;
@@ -194,38 +200,38 @@
   border-radius: 0 3px 3px 0;
   user-select: none;
   -webkit-user-select: none;
-}
+} */
 
 /* Position the "next button" to the right */
-.next {
+/* .next {
   right: 0;
   border-radius: 3px 0 0 3px;
-}
+} */
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover,
+/* .prev:hover,
 .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
-}
+} */
 
 /* Number text (1/3 etc) */
-.numbertext {
+/* .numbertext {
   color: #f2f2f2;
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
   top: 0;
-}
+} */
 
 /* Caption text */
-.caption-container {
+/* .caption-container {
   text-align: center;
   background-color: black;
   padding: 2px 16px;
   color: white;
-}
+} */
 
-img.demo {
+/* img.demo {
   opacity: 0.6;
 }
 
@@ -244,7 +250,7 @@ img.hover-shadow {
 .wpo-about-section-s6 .wpo-about-items .wpo-about-text {
   padding-left: 0px !important;
  
-}
+} */
 
 .wpo-event-area-s2 .wpo-event-wrap .event-slider button{
   position: absolute;
@@ -513,13 +519,11 @@ img.hover-shadow {
 }
 
 .advocacy-page .wpo-features-section-s2 .wpo-features-item .wpo-features-text p{
-  font-size: 14px;
+  font-size: 16px;
 }
 .advocacy-page .wpo-features-section-s2 .wpo-features-item{
   height: 400px;
-}
-.advocacy-page .wpo-features-section-s2 .wpo-features-item .wpo-features-icon{
-  border: 1px solid #ebebeb;
+  margin-top: 70px;
 }
 .wpo-features-section-s2 .advocacy-row .col:nth-child(2) .wpo-features-item {
   background: #f1e0ff;
@@ -567,7 +571,13 @@ img.hover-shadow {
   height: 500px;
 }
 
-
+.popup-gallery{
+  padding-top: 30px;
+}
+.popup-gallery a img{
+  width: 100%;
+ 
+}
 
 
 
@@ -645,12 +655,5 @@ img.hover-shadow {
   padding-bottom: 90px;
 }
 }
-@media (min-width: 900px){
-  .popup-gallery{
-    padding-top: 30px;
-  }
-  .popup-gallery a img{
-    width: 200px;
-  }
-  }
+
 
