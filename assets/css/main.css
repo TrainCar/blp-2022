@@ -324,6 +324,9 @@ img.hover-shadow {
 .advocacy-page .wpo-breadcumb-area {
   background: url(../images/advocacy/advocacy.png) no-repeat center top/cover;
 }
+.contact-us-page .wpo-breadcumb-area {
+  background: url(../images/contact-us/contact-us.png) no-repeat center top/cover;
+}
 .cottage-page  .wpo-about-section-s5 {
   padding-top: 120px;
 }
