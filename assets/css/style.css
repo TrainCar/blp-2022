@@ -6929,6 +6929,7 @@ wpo-hero-section-6
   background: #fff;
   border-radius: 10px;
   display: flex;
+  height: 200px;
 }
 @media (max-width: 1400px) {
   .wpo-features-section-s5 .wpo-features-item {
