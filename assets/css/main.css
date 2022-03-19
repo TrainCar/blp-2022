@@ -449,6 +449,9 @@ img.hover-shadow {
 .bgirl .wpo-breadcumb-area {
   background: url(../images/b-girl/b-girl-header.png) no-repeat center top/cover !important;
 }
+.contact-page .wpo-breadcumb-area {
+  background: url(../images/contact-us/contact-us.png) no-repeat center top/cover !important;
+}
 .bgirl .wpo-cta-area .wpo-cta-section{
   padding-right: 0px;
 }
@@ -581,6 +584,9 @@ img.hover-shadow {
 }
 .northeast .wpo-project-single-section .wpo-project-single-wrap .wpo-solutions-section .wpo-solutions-item{
   height: 500px;
+}
+.northeast .wpo-project-single-section .wpo-solutions-item img {
+  width: 50px;
 }
 
 .popup-gallery{
