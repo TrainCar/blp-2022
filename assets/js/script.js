@@ -523,7 +523,7 @@
     if ($(".event-slider").length) {
         $(".event-slider").owlCarousel({
             autoplay: true,
-            smartSpeed: 300,
+            smartSpeed: 400,
             margin: 100,
             loop:true,
             autoplayHoverPause:true,
