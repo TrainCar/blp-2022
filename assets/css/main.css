@@ -443,9 +443,7 @@ img.hover-shadow {
 .bgirl .wpo-project-single-section .wpo-project-single-wrap .wpo-features-section-s2 .col:nth-child(2) .wpo-features-item {
   background: #fde4dd !important;
 }
-.bgirl .wpo-campaign-area .wpo-campaign-item{
-  height: 800px;
-}
+
 .bgirl .wpo-breadcumb-area {
   background: url(../images/b-girl/b-girl-header.png) no-repeat center top/cover !important;
 }
@@ -664,6 +662,9 @@ img.hover-shadow {
 .cottage-page .wpo-about-section-s5 .wpo-total-project .wpo-total-project-wrap .wpo-total-project-icon .fi{
   font-size: 20px;
 }
+/* .bgirl .wpo-campaign-area .wpo-campaign-item{
+  height: 900px;
+} */
 
 }
 
