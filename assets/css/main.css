@@ -319,28 +319,28 @@ img.hover-shadow {
   padding-left: 20px !important;
 }
 .about-page .wpo-breadcumb-area {
-  background: url(../images/about/about-header.png) no-repeat center top/cover;
+  background: url(../images/about/about-bg.png) no-repeat center top/cover;
 }
 .cottage-page .wpo-breadcumb-area {
   background: url(../images/cottage-industry/cottage-bg.png) no-repeat center top/cover;
 }
 .advocacy-page .wpo-breadcumb-area {
-  background: url(../images/advocacy/advocacy.png) no-repeat center top/cover;
+  background: url(../images/advocacy/advocacy-bg.png) no-repeat center top/cover;
 }
 .contact-us-page .wpo-breadcumb-area {
-  background: url(../images/contact-us/contact-us.png) no-repeat center top/cover;
+  background: url(../images/contact-us/contact-bg.png) no-repeat center top/cover;
 }
 .cottage-page  .wpo-about-section-s5 {
   padding-top: 120px;
 }
 .sauki-page .wpo-breadcumb-area {
-  background: url(../images/sauki-health/sauki-health.png) no-repeat center top/cover;
+  background: url(../images/sauki-health/saukihealth-bg.png) no-repeat center top/cover;
 }
 .northeast .wpo-breadcumb-area {
-  background: url(../images/northeast/northeast.png) no-repeat center top/cover;
+  background: url(../images/north-east/northeast-bg.png) no-repeat center top/cover;
 }
 .impact .wpo-breadcumb-area {
-  background: url(../images/impact/impact.png) no-repeat center top/cover !important;
+  background: url(../images/impact/impact500-bg.png) no-repeat center top/cover !important;
 }
 .impact .wpo-cta-area-s2 .wpo-cta-section{
   padding-right: 0px;
@@ -445,10 +445,10 @@ img.hover-shadow {
 }
 
 .bgirl .wpo-breadcumb-area {
-  background: url(../images/b-girl/b-girl-header.png) no-repeat center top/cover !important;
+  background: url(../images/b-girl/bgirl-bg.png) no-repeat center top/cover !important;
 }
 .contact-page .wpo-breadcumb-area {
-  background: url(../images/contact-us/contact-us.png) no-repeat center top/cover !important;
+  background: url(../images/contact-us/contact-bg.png) no-repeat center top/cover !important;
 }
 .bgirl .wpo-cta-area .wpo-cta-section{
   padding-right: 0px;
