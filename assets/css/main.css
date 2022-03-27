@@ -448,7 +448,13 @@ img.hover-shadow {
   background: url(../images/b-girl/bgirl-bg.png) no-repeat center top/cover !important;
 }
 .contact-page .wpo-breadcumb-area {
-  background: url(../images/contact-us/contact-bg.png) no-repeat center top/cover !important;
+  background: url(../images/contact-us/contact-bg.png) no-repeat center top/cover ;
+}
+.volunteer .wpo-breadcumb-area {
+  background: url(../images/volunteer/volunteer-bg.png) no-repeat center top/cover ;
+}
+.sponsor .wpo-breadcumb-area {
+  background: url(../images/sponsor-a-child/sponsor-bg.png) no-repeat center top/cover ;
 }
 .bgirl .wpo-cta-area .wpo-cta-section{
   padding-right: 0px;
