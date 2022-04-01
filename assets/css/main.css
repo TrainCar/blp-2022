@@ -101,15 +101,6 @@
   font-size: 22px;
 }
 
-/* .mini-gallery > .row > .column {
-  padding: 0 8px;
-}
-
-.mini-gallery > .row:after {
-  content: "";
-  display: table;
-  clear: both;
-} */
 .wpo-about-section-s2 {
   padding-top: 120px;
 }
@@ -129,128 +120,6 @@
 .about-us .wpo-about-text{
   text-align: center;
 }
-
-/* Create four equal columns that floats next to eachother */
-/* .mini-gallery > .column {
-  float: left;
-  width: 25%;
-}
-.mini-gallery .column img{
-  width: 100px;
-} */
-/* The Modal (background) */
-/* .modal {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  padding-top: 100px;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: black;
-} */
-
-/* Modal Content */
-/* .modal-content {
-  position: relative;
-  background-color: #fefefe;
-  margin: auto;
-  padding: 0;
-  width: 90%;
-  max-width: 1200px;
-} */
-
-/* The Close Button */
-/* .close {
-  color: white;
-  position: absolute;
-  top: 10px;
-  right: 25px;
-  font-size: 35px;
-  font-weight: bold;
-} */
-
-/* .close:hover,
-.close:focus {
-  color: #999;
-  text-decoration: none;
-  cursor: pointer;
-} */
-
-/* Hide the slides by default */
-/* .mySlides {
-  display: none;
-} */
-
-/* Next & previous buttons */
-/* .prev,
-.next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -50px;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-  -webkit-user-select: none;
-} */
-
-/* Position the "next button" to the right */
-/* .next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-} */
-
-/* On hover, add a black background color with a little bit see-through */
-/* .prev:hover,
-.next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-} */
-
-/* Number text (1/3 etc) */
-/* .numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-} */
-
-/* Caption text */
-/* .caption-container {
-  text-align: center;
-  background-color: black;
-  padding: 2px 16px;
-  color: white;
-} */
-
-/* img.demo {
-  opacity: 0.6;
-}
-
-.active,
-.demo:hover {
-  opacity: 1;
-}
-
-img.hover-shadow {
-  transition: 0.3s;
-}
-
-.hover-shadow:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-.wpo-about-section-s6 .wpo-about-items .wpo-about-text {
-  padding-left: 0px !important;
- 
-} */
 
 .wpo-event-area-s2 .wpo-event-wrap .event-slider button{
   position: absolute;
@@ -319,13 +188,13 @@ img.hover-shadow {
   padding-left: 20px !important;
 }
 .about-page .wpo-breadcumb-area {
-  background: url(../images/about/about-bg.png) no-repeat center top/cover;
+  background: url(../images/about/about-bg.jpeg) no-repeat center top/cover;
 }
 .cottage-page .wpo-breadcumb-area {
-  background: url(../images/cottage-industry/cottage-bg.png) no-repeat center top/cover;
+  background: url(../images/cottage-industry/cottage-bg.jpeg) no-repeat center top/cover;
 }
 .advocacy-page .wpo-breadcumb-area {
-  background: url(../images/advocacy/advocacy-bg.png) no-repeat center top/cover;
+  background: url(../images/advocacy/advocacy-bg.jpeg) no-repeat center top/cover;
 }
 .contact-us-page .wpo-breadcumb-area {
   background: url(../images/contact-us/contact-bg.png) no-repeat center top/cover;
@@ -337,7 +206,7 @@ img.hover-shadow {
   background: url(../images/sauki-health/saukihealth-bg.png) no-repeat center top/cover;
 }
 .northeast .wpo-breadcumb-area {
-  background: url(../images/north-east/northeast-bg.png) no-repeat center top/cover;
+  background: url(../images/north-east/northeast-bg.jpeg) no-repeat center top/cover;
 }
 .impact .wpo-breadcumb-area {
   background: url(../images/impact/impact500-bg.png) no-repeat center top/cover !important;
@@ -445,7 +314,7 @@ img.hover-shadow {
 }
 
 .bgirl .wpo-breadcumb-area {
-  background: url(../images/b-girl/bgirl-bg.png) no-repeat center top/cover !important;
+  background: url(../images/b-girl/bgirl-bg.jpeg) no-repeat center top/cover !important;
 }
 .contact-page .wpo-breadcumb-area {
   background: url(../images/contact-us/contact-bg.png) no-repeat center top/cover ;
@@ -455,6 +324,9 @@ img.hover-shadow {
 }
 .sponsor .wpo-breadcumb-area {
   background: url(../images/sponsor-a-child/sponsor-bg.png) no-repeat center top/cover ;
+}
+.partner .wpo-breadcumb-area {
+  background: url(../images/partner-with-us/partner-bg.png) no-repeat center top/cover ;
 }
 .bgirl .wpo-cta-area .wpo-cta-section{
   padding-right: 0px;
@@ -544,24 +416,18 @@ img.hover-shadow {
   height: 400px;
   margin-top: 70px;
 }
-.wpo-features-section-s2 .advocacy-row .col:nth-child(2) .wpo-features-item {
-  background: #f1e0ff;
+.wpo-features-section-s2 .advocacy-row .col:nth-child(4) .wpo-features-item {
+  
+  background: #dcffec;
 }
-.wpo-features-section-s2 .advocacy-row .col:nth-child(2) .wpo-features-item .fi{
-  color: #72449A;
-}
-.wpo-features-section-s2 .advocacy-row .wpo-features-item {
-  background: #dcffec;;
-}
-.wpo-features-section-s2 .advocacy-row .wpo-features-item .fi{
-  color: #05e66a;;
-}
-.wpo-features-section-s2 .advocacy-row .col:nth-child(3) .wpo-features-item {
+.wpo-features-section-s2 .advocacy-row .col:nth-child(6) .wpo-features-item{
   background: #ffdfe0;
 }
-.wpo-features-section-s2 .advocacy-row .col:nth-child(3) .wpo-features-item .fi{
-  color: #ED2024;
+
+.wpo-features-section-s2 .advocacy-row .col:nth-child(5) .wpo-features-item {
+  background: #f1e0ff;
 }
+
 
 .volunteer-contact-form .form-group .required{
   color: #ED2024;
@@ -598,6 +464,7 @@ img.hover-shadow {
 }
 .popup-gallery a img{
   width: 100%;
+  height: 275px;
  
 }
 
