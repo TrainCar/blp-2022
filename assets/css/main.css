@@ -464,7 +464,13 @@
   height: 275px;
  
 }
-
+.back-btn{
+  padding: 0 30px;
+}
+.back-btn a{
+  padding: 10px;
+  color:#e4530f
+}
 
 
 
