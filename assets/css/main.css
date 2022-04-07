@@ -417,11 +417,11 @@
   margin-top: 70px;
 }
 .wpo-features-section-s2 .advocacy-row .col:nth-child(4) .wpo-features-item {
+  background: #ffdfe0;
   
-  background: #dcffec;
 }
 .wpo-features-section-s2 .advocacy-row .col:nth-child(6) .wpo-features-item{
-  background: #ffdfe0;
+  background: #dcffec;
 }
 
 .wpo-features-section-s2 .advocacy-row .col:nth-child(5) .wpo-features-item {
@@ -451,9 +451,6 @@
 }
 .northeast .wpo-project-single-section .wpo-project-single-wrap .wpo-project-single-content .wpo-project-single-content-des .wpo-project-single-content-des-wrap {
   display: block;
-}
-.northeast .wpo-project-single-section .wpo-project-single-wrap .wpo-solutions-section .wpo-solutions-item{
-  height: 500px;
 }
 .northeast .wpo-project-single-section .wpo-solutions-item img {
   width: 50px;
@@ -504,6 +501,9 @@
  {
     display: none;
   }
+  .wpo-section-title p {
+    max-width: 100%;
+  }
 }
 @media (max-width: 1200px) {
   .wpo-campaign-area .campaign-btn .e-btn,
@@ -515,6 +515,7 @@
     width: 90px;
     font-size: 12px;
   }
+
 }
 @media (max-width: 1200px) {
   .wpo-event-area-s2 .wpo-event-wrap .event-slider button
